@@ -29,7 +29,7 @@ class Board extends React.Component {
       <div>
         {this.drawBoard}
       </div>
-      /* <div>
+      <div>
         <div className = "board-row">
           {document.getElementsByClassName('board')}
         </div>
@@ -43,7 +43,7 @@ class Board extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
-      </div> */
+      </div>
     )
   }
 }
